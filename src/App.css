@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  margin: 20px;
+  font-family: 'Arial, sans-serif';
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="file"] {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"], input[type="color"] {
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
